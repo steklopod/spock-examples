@@ -11,14 +11,14 @@ java {
 }
 
 repositories {
-    mavenLocal()
+//    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
-    implementation("org.codehaus.groovy:groovy-all:2.4.15")
+    implementation("org.codehaus.groovy:groovy-all:2.5.6")
 
-    testImplementation("org.spockframework:spock-core:1.3-RC1-groovy-2.5")
+    testImplementation("org.spockframework:spock-core:1.3-groovy-2.5")
 
     testCompile("org.hamcrest:hamcrest-core:2.1")
 
